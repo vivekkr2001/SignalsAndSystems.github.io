@@ -1,6 +1,10 @@
 Signals And Systems
 =================
 
+<a href="https://github.com/zzossig/hugo-theme-zzo/issues/88" target="_blank">external link</a>
+
+[![Watch the video](https://img.youtube.com/vi/8NS4CbBJQ84/maxresdefault.jpg)](https://www.youtube.com/watch?v=FhVQjuAtlTs)]
+
 Table of contents
 =================
 
@@ -40,14 +44,31 @@ Introduction to Systems
 =================
 
 What is system?
+-----------
+
 Block Diagram
+-----------
+
 Communication Systems
+-----------
+
 Control Systems
+-----------
+
 Open loop
+-----------
+
 Closed loop
+-----------
+
 MEMS
+-----------
+
 Remote Sensing
+-----------
+
 Auditory Systems
+-----------
 
 Properties Of Systems
 =================
