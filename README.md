@@ -19,7 +19,7 @@ Table of contents
      * [Auditory Systems](#auditory-systems)  
    * [Properties Of Systems](#properties-of-systems)
       * [Memory](#memory)
-      * [stability](#stability)
+      * [Stability](#stability)
       * [Linearity](#linearity)
       * [Causality](#causality)
       * [Invertibility](#invertibility)
@@ -35,3 +35,67 @@ Table of contents
       * [Parallel](#parallel)
       * [Feedback](#feedback)
 <!--te-->
+
+Introduction to Systems
+=================
+
+What is system?
+Block Diagram
+Communication Systems
+Control Systems
+Open loop
+Closed loop
+MEMS
+Remote Sensing
+Auditory Systems
+
+Properties Of Systems
+=================
+
+Memory
+-----------
+
+Stability
+-----------
+
+Linearity
+-----------
+
+Causality
+-----------
+
+Invertibility
+-----------
+
+Time Invariance
+-----------
+
+LTI Systems
+=================
+
+Introduction
+-----------
+
+Impulse response of LTI
+-----------
+
+Frequency response of LTI
+-----------
+
+Relationship between Frequency and Impulse Response
+-----------
+
+Difference equation Representation of LTI System
+-----------
+
+Integration of Systems
+=================
+
+Cascading
+-----------
+
+Parallel
+-----------
+
+Feedback
+-----------
