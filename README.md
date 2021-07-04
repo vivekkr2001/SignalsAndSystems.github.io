@@ -32,6 +32,7 @@ Table of contents
         * [Closed loop](#closed-loop)
      * [MEMS](#mems)
      * [Remote Sensing](#remote-sensing)
+     * [Biomedical signal processing](#biomedical-signal-processing)
      * [Auditory Systems](#auditory-systems)  
    * [Properties Of Systems](#properties-of-systems)
       * [Memory](#memory)
@@ -174,7 +175,7 @@ MEMS
 -----------
 
 <b>Video: </b><br>
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/j9y0gfN9WMg/4.jpg)](http://www.youtube.com/watch?v=j9y0gfN9WMg)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/v=j9y0gfN9WMg/4.jpg)](http://www.youtube.com/watch?v=j9y0gfN9WMg)
 
 Time Stamps: <br>
 &nbsp;&nbsp; 26:24 - 29:32 Characteristics of MEMS
@@ -191,6 +192,9 @@ The distinctive features of MEMS :
 
 
 Remote Sensing
+-----------
+
+Biomedical signal processing
 -----------
 
 Auditory Systems
