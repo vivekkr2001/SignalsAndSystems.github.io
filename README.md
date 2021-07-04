@@ -7,7 +7,7 @@ Table of contents
 <!--ts-->
    * [Signals and systems](#signals-and-systems)
    * [Table of contents](#table-of-contents)
-   * [<h3>Introduction to Systems</h3>](#introduction-to-systems)
+   * [Introduction to Systems](#introduction-to-systems)
      * [What is system?](#what-is-system)
      * [Block Diagram](#block-diagram)
      * [Communication Systems](#communication-systems)
