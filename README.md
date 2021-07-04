@@ -174,7 +174,7 @@ MEMS
 -----------
 
 <b>Video: </b><br>
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/v=j9y0gfN9WMg/4.jpg)](http://www.youtube.com/watch?v=j9y0gfN9WMg)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/j9y0gfN9WMg/4.jpg)](http://www.youtube.com/watch?v=j9y0gfN9WMg)
 
 Time Stamps: <br>
 &nbsp;&nbsp; 26:24 - 29:32 Characteristics of MEMS
