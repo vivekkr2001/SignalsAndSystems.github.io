@@ -70,6 +70,7 @@ Time stamps: <br>
 In this Video, he described the system as a source which manipulates the given input signal. With a system we can perform many operations on input signals and get the desired output.
 He also mentioned the types 0f systems which are continuous and discrete systems. And then he discusses them.
 </p>
+
 Block Diagram
 -----------
 
