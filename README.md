@@ -32,6 +32,7 @@ Table of contents
         * [Closed loop](#closed-loop)
      * [MEMS](#mems)
      * [Remote Sensing](#remote-sensing)
+     * [Biomedical signal processing](#biomedical-signal-processing)
      * [Auditory Systems](#auditory-systems)  
    * [Properties Of Systems](#properties-of-systems)
       * [Memory](#memory)
@@ -149,19 +150,51 @@ Control Systems
 -----------
 
 <b>Video: </b> <br>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/O-OqgFE9SD4/3.jpg)](http://www.youtube.com/watch?v=O-OqgFE9SD4)
 
+Time Stamps: <br>
+&nbsp;&nbsp; 0:00 - 1:14 Open Loop
+&nbsp;&nbsp; 3:38 - 4:10 Closed Loop
 
-
-Open loop
------------
-
+<b>Description:</b> <br>
+<p>
+This video is about the control systems and their types, A control system is a mechanical state that alters the future state of a system. 
+Control system is of two types:
+Open loop 
 Closed loop
------------
+
+Open loop: 
+In this system, input signal is not controlled by any feedback from output or conditions. The system is automatic. It continues to alter the input until the given time. Example: Dishwasher which  keeps on cleaning the dishes until the timer stops, it doesn't check whether the dish is clean or not. Once the timer stops it discontinues the process.
+
+Closed loop:
+	In this system, it has a regulation for the input before altering in the plant unlike open loop, closed loop system controls the input signal through feedback system.
+
+</p>
 
 MEMS
 -----------
 
+<b>Video: </b><br>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/j9y0gfN9WMg/4.jpg)](http://www.youtube.com/watch?v=j9y0gfN9WMg)
+
+Time Stamps: <br>
+&nbsp;&nbsp; 26:24 - 29:32 Characteristics of MEMS
+
+<b>Description:</b> <br>
+<p>
+Micro Electro-Mechanical Systems are devices built with micro sensors and mechanical parts along signal processing circuits. These devices provide a channel between computing systems and the physical world. Basic I/O ’s are built using MEMS. They provide I/O to information systems like sensing and creating motion, radio waves etc. 
+The distinctive features of MEMS :
+1. Miniaturization 
+2. Multiplicity
+3. Microelectronics.
+
+</p>
+
+
 Remote Sensing
+-----------
+
+Biomedical signal processing
 -----------
 
 Auditory Systems
@@ -174,58 +207,23 @@ Memory
 -----------
 
 Video:
-[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/6.jpg)](https://youtu.be/4PUcOf0koxw)
+[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/maxresdefault1.jpg)](https://youtu.be/4PUcOf0koxw)
 
 Description:
 
-<b>Memoryless system:</b> The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
+Memoryless system: The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
 The input from the past and future has no influence on the output of the system.
 
 Ex: A resistor is memoryless, since the current i(t) flowing through it in response to the applied voltage v(t) is defined by
 
-![pic1](https://user-images.githubusercontent.com/54907384/124393219-00108100-dd17-11eb-8eb3-ba51e767e05c.png)
+
      
 where R is resistance of the resistor.
 
-Memory System: In contrast, the system is said to possess memory if its output signal depends on past or future values of input signal.
-These systems are opposite of memory systems.
 
-Ex: An inductor has memory, since the current i(t) flowing through it is related to the applied voltage v(t) by
-
-![pic2](https://user-images.githubusercontent.com/54907384/124393248-26ceb780-dd17-11eb-9c3c-b6b6d16fbc2d.png)
-
-where L is inductance of th inductor.
-
-
-<b>Stability
+Stability
 -----------
-Stable System:</b> A system is said to be bounded-input, bounded-output (BIBO) stable (in both continuous-time and discrete-time) if and only if every bounded input results in a bounded output.
 
-
-i.e., if the output of the system satisfies the condition
-![pic3](https://user-images.githubusercontent.com/54907384/124393360-c12efb00-dd17-11eb-8eb5-0ad63e09bad9.png)
-
-whenever the input of the system satisfies the condition
-![pic4](https://user-images.githubusercontent.com/54907384/124393415-0d7a3b00-dd18-11eb-8583-e37ccaead4be.png)
-
-
-Both Mx and My represent some finite positive numbers.
-
-<b>Unstable system:</b> A system is said to be unstable if it is not a stable system.
-
- ![pic5](https://user-images.githubusercontent.com/54907384/124393444-297ddc80-dd18-11eb-9fe1-b76170e3262f.png)
-
-<b>Ex:</b>
-Lets assume the input is bounded and satisfies the condition.
-![pic6](https://user-images.githubusercontent.com/54907384/124393453-37cbf880-dd18-11eb-93af-bd57bca0aeb7.png)
-
-Then we can find that
-
-![pic7](https://user-images.githubusercontent.com/54907384/124393460-41edf700-dd18-11eb-9faa-d2c7db5728ca.png)
-
-When r ≥ 1, rn increases as n increases and the magnitude of y[n] increases, thus violates the bibo stable condition. So, the system is  unstable.
-
-When r < 1, rn decreases as n increases and the magnitude of y[n] reaches zero, thus satisfiying the bibo stable condition. So, the system is  stable.
 Linearity
 -----------
 
