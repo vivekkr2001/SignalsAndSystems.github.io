@@ -110,13 +110,22 @@ The input from the past and future has no influence on the output of the system.
 
 Ex: A resistor is memoryless, since the current i(t) flowing through it in response to the applied voltage v(t) is defined by
 
-
+![alt text](https://github.com/vivekkr2001/SignalsAndSystems/pic1.jpg?raw=true)
      
 where R is resistance of the resistor.
 
+<b>Memory System</b>: In contrast, the system is said to possess memory if its output signal depends on past or future values of input signal.
+These systems are opposite of memory systems.
+Ex: An inductor has memory, since the current i(t) flowing through it is related to the applied voltage v(t) by
+
+where L is the inductance of the inductor.
+
+
 
 Stability
------------
+------------
+
+
 
 Linearity
 -----------
