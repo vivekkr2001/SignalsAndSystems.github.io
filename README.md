@@ -173,19 +173,6 @@ Properties Of Systems
 Memory
 -----------
 
-Video:
-[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/6.jpg)](http://www.youtube.com/watch?v=4PUcOf0koxw)
-
-Description:
-
-Memoryless system: The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
-The input from the past and future has no influence on the output of the system.
-
-Ex: A resistor is memoryless, since the current i(t) flowing through it in response to the applied voltage v(t) is defined by
-     
-where R is resistance of the resistor.
-
-
 Stability
 -----------
 
