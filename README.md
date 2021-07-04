@@ -70,15 +70,87 @@ Time stamps: <br>
 In this Video, he described the system as a source which manipulates the given input signal. With a system we can perform many operations on input signals and get the desired output.
 He also mentioned the types 0f systems which are continuous and discrete systems. And then he discusses them.
 </p>
-
 Block Diagram
 -----------
+
+<b>Video: </b> <br>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/X4hPVxZlrPU/1.jpg)](http://www.youtube.com/watch?v=X4hPVxZlrPU)
+
+Time Stamps: <br>
+&nbsp;&nbsp; 0:42 - 4:22 Introduction of the Mechanism of Block Diagrams <br>
+
+<b>Description:</b> <br>
+<p>
+Lecture is about how to represent the signal transformation using a block diagram. He described every block for a particular operation. 
+
+Block diagram consists of : 
+
+Blocks – these represent subsystems – typically modeled by, and labeled with, a transfer function
+
+Signals – inputs and outputs of blocks – signal direction indicated by arrows – could be voltage, velocity, force, etc.
+
+Summing junctions – points were signals are algebraically summed –subtraction indicated by a negative sign near where the signal joins the
+summing junction.
+For adding signals we use summation junctions and also closed loop systems for performing iterative operations on the input signals. This lecture covers block diagrams used to represent control systems, methods of manipulation of block diagrams (including an Example) as well as covering steady state errors and their determination.
+</p>
+
 
 Communication Systems
 -----------
 
+<b>Video: </b> <br>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/qhjj6WG7Rgc/2.jpg)](http://www.youtube.com/watch?v=qhjj6WG7Rgc)
+
+Time Stamps: <br>
+&nbsp;&nbsp; 1:34 - 8:32 Basic Structure of Block Diagrams <br>
+
+<b>Description:</b> <br>
+<p>
+In this video, we can understand the basic structure of communication systems with a block diagram.
+Below is the block diagram of the communication system.
+Communication is the exchange of information between the two or more points.
+Electronics point of view, it is the exchange of information using the electronic device or gadget between two or more points which can be far away from each other.
+The communication system contains the following basic blocks:
+
+1) The Source
+2) Input Transducer
+3) Transmitter
+4) Channel 
+5) Receiver
+6) Output Transducer
+
+Source:
+The source is the origin from where the message signal is generated.
+The message could be voice signal, email, Television Signal, or data.
+
+Input Transducer:
+Using the input transducer, the message signal is converted into the electrical signal.
+
+Transmitter:
+The transmitter signal modifies the input signal for efficient transmission.
+The transmitter may contain several subsystems like modulator, analog to digital converter, encoder, amplifier etc.
+
+Channel:
+The channel is the medium over which the transmitted signal is transmitted.
+The channel could be physical channel (e.g optical fiber, coaxial cable) or wireless channel (radio link)
+The channel partly behaves like a filter and attenuates and distorts the transmitted signal.
+
+The receiver:
+For faithful communication, the receiver should be able to recover the message signal from the received (distorted and attenuated) signal.
+The receiver also contains several subsystems like, demodulator, decoder, digital to analog converter, amplifier.
+
+Output Transducer:
+The output of the receiver is given to the output transducer. Speaker, monitor screen are examples of the output transducer.
+
+
+</p>
+
 Control Systems
 -----------
+
+<b>Video: </b> <br>
+
+
 
 Open loop
 -----------
@@ -101,10 +173,10 @@ Properties Of Systems
 Memory
 -----------
 
-<b>Video: </b> <br>
-[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/mx1.jpg)](http://www.youtube.com/watch?v=4PUcOf0koxw)
+Video:
+[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/maxresdefault1.jpg)](https://youtu.be/4PUcOf0koxw)
 
-<b>Description: </b> <br>
+Description:
 
 Memoryless system: The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
 The input from the past and future has no influence on the output of the system.
