@@ -7,7 +7,7 @@ Table of contents
 <!--ts-->
    * [Signals and systems](#signals-and-systems)
    * [Table of contents](#table-of-contents)
-   * [Introduction to Systems](#introduction-to-systems)
+   * [<h3>Introduction to Systems</h3>](#introduction-to-systems)
      * [What is system?](#what-is-system)
      * [Block Diagram](#block-diagram)
      * [Communication Systems](#communication-systems)
@@ -23,4 +23,13 @@ Table of contents
       * [Linearity](#linearity)
       * [Causality](#causality)
       * [Invertibility](#invertibility)
+      * [Time Invariance](#time-invariance)
+   * [LTI Systems](#lti-systems)
+      * [Linear time invariant systems](#linear-time-invariant-systems)
+        * [Convolution sum representation](#convolution-sum-representation)
+        * [Difference equation representation](#difference-equation-representation)
+        * [Block diagram representation](#block-diagram-representation)
+        * [State variable description](#state-variable-description)
+      * [Relations between LTI systems properties and the Impulse response](#relations-between-lti-systems-properties-and-the-impulse-response)
+      * [Frequency response of LTI](#frequency-response-of-lti)
 <!--te-->
