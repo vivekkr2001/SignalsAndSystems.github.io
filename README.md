@@ -102,7 +102,7 @@ Memory
 -----------
 
 <b>Video: </b> <br>
-[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/6.jpg)](https://youtu.be/4PUcOf0koxw)
+[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/mx1.jpg)](http://www.youtube.com/watch?v=4PUcOf0koxw)
 
 <b>Description: </b> <br>
 
