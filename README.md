@@ -1,9 +1,21 @@
 Signals And Systems
 =================
 
+******
+To add pictures to the link :
+
+Website for picture, https://img.youtube.com/vi/[---------]/maxresdefault.jpg
+
+For the above link, replace [---------] with youtube link code<br>
+Code for this youtube link, https://www.youtube.com/watch?v=FhVQjuAtlTs, code is: FhVQjuAtlTs
+
 <a href="https://github.com/zzossig/hugo-theme-zzo/issues/88" target="_blank">external link</a>
 
-[![Watch the video](https://img.youtube.com/vi/8NS4CbBJQ84/maxresdefault.jpg)](https://www.youtube.com/watch?v=FhVQjuAtlTs)]
+Ex:
+
+[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/maxresdefault.jpg)](https://youtu.be/4PUcOf0koxw)
+
+****
 
 Table of contents
 =================
@@ -75,6 +87,21 @@ Properties Of Systems
 
 Memory
 -----------
+
+Video:
+[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/maxresdefault.jpg)](https://youtu.be/4PUcOf0koxw)
+
+Description:
+
+Memoryless system: The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
+The input from the past and future has no influence on the output of the system.
+
+Ex: A resistor is memoryless, since the current i(t) flowing through it in response to the applied voltage v(t) is defined by
+
+
+     
+where R is resistance of the resistor.
+
 
 Stability
 -----------
