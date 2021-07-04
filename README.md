@@ -58,6 +58,13 @@ Introduction to Systems
 What is system?
 -----------
 
+Video:
+[![Watch the video](https://img.youtube.com/vi/fxGZ7GRQMsk/maxresdefault1.jpg)](https://www.youtube.com/watch?v=fxGZ7GRQMsk)
+
+Description:
+In this Video, he described the system as a source which manipulates the given input signal. With a system we can perform many operations on input signals and get the desired output.
+He also mentioned the types 0f systems which are continuous and discrete systems. And then he discusses them.
+
 Block Diagram
 -----------
 
@@ -89,7 +96,7 @@ Memory
 -----------
 
 Video:
-[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/maxresdefault.jpg)](https://youtu.be/4PUcOf0koxw)
+[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/maxresdefault1.jpg)](https://youtu.be/4PUcOf0koxw)
 
 Description:
 
