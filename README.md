@@ -173,6 +173,31 @@ Properties Of Systems
 Memory
 -----------
 
+Video:
+[![Watch the video](https://img.youtube.com/vi/4PUcOf0koxw/6.jpg)](https://youtu.be/4PUcOf0koxw)
+
+Description:
+
+<b>Memoryless system:</b> The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
+The input from the past and future has no influence on the output of the system.
+
+Ex: A resistor is memoryless, since the current i(t) flowing through it in response to the applied voltage v(t) is defined by
+
+![pic1](https://user-images.githubusercontent.com/54907384/124393219-00108100-dd17-11eb-8eb3-ba51e767e05c.png)
+     
+where R is resistance of the resistor.
+
+Memory System: In contrast, the system is said to possess memory if its output signal depends on past or future values of input signal.
+These systems are opposite of memory systems.
+
+Ex: An inductor has memory, since the current i(t) flowing through it is related to the applied voltage v(t) by
+
+![pic2](https://user-images.githubusercontent.com/54907384/124393248-26ceb780-dd17-11eb-9c3c-b6b6d16fbc2d.png)
+
+where L is inductance of th inductor.
+
+
+
 Stability
 -----------
 
