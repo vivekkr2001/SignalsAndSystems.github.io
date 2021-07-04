@@ -32,4 +32,10 @@ Table of contents
         * [State variable description](#state-variable-description)
       * [Relations between LTI systems properties and the Impulse response](#relations-between-lti-systems-properties-and-the-impulse-response)
       * [Frequency response of LTI](#frequency-response-of-lti)
+      * [Relationship between Frequency and Impulse Response](#relationship-between-frequency-and-impulse-response)
+      * [Difference equation Representation of LTI System](#difference-equation-representation-of-lti-system)
+   * [Integration of Systems](#integration-of-systems)
+      * [Cascading](#cascading)
+      * [Parallel](#parallel)
+      * [Feedback](#feedback)
 <!--te-->
