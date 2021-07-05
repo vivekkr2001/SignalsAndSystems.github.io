@@ -107,68 +107,64 @@ Linearity
 
 Ex: y[n] = n.x[n] is a linear system, because it satisfies both  superposition principle and homogeneity property.
 
-If input x[n] is expressed as weighted sum
+If input x[n] is expressed as weighted sum <br />
 ![pic8](https://user-images.githubusercontent.com/54907384/124420704-95def700-dd7d-11eb-81a3-8313e6bc3f7f.png) <br />
-then the resulting output will be
+then the resulting output will be <br />
 ![pic9](https://user-images.githubusercontent.com/54907384/124420750-a4c5a980-dd7d-11eb-9dd8-6e2accc59f8a.png) <br />
 ![pic10](https://user-images.githubusercontent.com/54907384/124420785-b60eb600-dd7d-11eb-8606-8feadc43ec50.png)
 
-Non-linear System: If the system violates either of the superposition principle or homogeneity property, then it is said to be a Non-linear system.
+<b>Non-linear System:</b> <p>If the system violates either of the superposition principle or homogeneity property, then it is said to be a Non-linear system.
 
 Ex:
-y(t) = x(t) + 2t
-First we will check superposition theorem
-y1(t) = x1(t) + 2t
-y2(t) = x2(t) + 2t
-y1(t) + y2(t) = x1(t) + x2(t) + 4t
+      y(t) = x(t) + 2t <br />
+      First we will check superposition theorem <br />
+          y1(t) = x1(t) + 2t <br />
+          y2(t) = x2(t) + 2t <br />
+          y1(t) + y2(t) = x1(t) + x2(t) + 4t <br />
 
-When input x(t) = x1(t) + x2(t),
-y(t) = x1(t) + x2(t) + 2t
-
-Since, both are not equal, the system is Non-linear.
-
+      When input x(t) = x1(t) + x2(t), <br />
+                 y(t) = x1(t) + x2(t) + 2t <br />
+Since, both are not equal, the system is Non-linear.</p>
 
 Causality
 -----------
-Causal System: A system is said to be causal (in both continuous-time and discrete-time) if the present value of the output signal depends only on the present or past values of the input signal.
+<b>Causal System:</b> <p>A system is said to be causal (in both continuous-time and discrete-time) if the present value of the output signal depends only on the present or past values of the input signal.</p>
 
-Ex:
+Ex: ![pic11](https://user-images.githubusercontent.com/54907384/124421206-8f9d4a80-dd7e-11eb-974b-8ccf2831968c.png)
 
-Non-causal System: A system is said to be non-causal if it is not a causal system.
+<b>Non-causal System:</b> <p>A system is said to be non-causal if it is not a causal system.</p>
 
-Ex: 
+Ex: ![pic12](https://user-images.githubusercontent.com/54907384/124421229-9e83fd00-dd7e-11eb-8172-d2c8f7574ecb.png)
 
 Invertibility
 -----------
-Invertibile System: A system is said to be Invertible (in both continuous-time and discrete-time) if the input of the system can be recovered from the output.
-If H is impulse response of a system, then there should exist another system with impulse response Hinv such that 
-H.Hinv = I
-Where I is a identity operator.
+<b>Invertibile System:</b> <p>A system is said to be Invertible (in both continuous-time and discrete-time) if the input of the system can be recovered from the output. <br />
+If H is impulse response of a system, then there should exist another system with impulse response Hinv such that <br />
+    ![Screenshot from 2021-07-05 10-50-59](https://user-images.githubusercontent.com/54907384/124421372-f6226880-dd7e-11eb-9483-3f8444f7c725.png)
+Where I is a identity operator. <br />
 
-
-
+![aaaaa](https://user-images.githubusercontent.com/54907384/124421423-105c4680-dd7f-11eb-9ffe-9cd774f096e3.png)
 Ex: 
-y(t) = 2x(t)
+        y(t) = 2x(t)
 
-Non-invertibile System: A system is said to be Non-invertible if the input of system is not recoverable. i.e., there doesn’t exist a system with impulse response Hinv.
+<b>Non-invertibile System:</b> A system is said to be Non-invertible if the input of system is not recoverable. i.e., there doesn’t exist a system with impulse response Hinv. 
 
-Ex: 
+Ex: ![Screenshot from 2021-07-05 10-52-58](https://user-images.githubusercontent.com/54907384/124421494-308c0580-dd7f-11eb-9bc7-f31b99268fa4.png) </p>
+
 Time Invariance
 -----------
-Time invariant system: A System is said to be time invariant if a time delay or time advance of the input signal leads to an identical time shift in the output signal. i.e., the time invariant system responds identically no matter when the signal is applied.
+<b>Time invariant system:</b> <p>A System is said to be time invariant if a time delay or time advance of the input signal leads to an identical time shift in the output signal. i.e., the time invariant system responds identically no matter when the signal is applied.
 If H is impulse response of the system, and St0 represents a time shift of t0 seconds. Then, time invariant system satisfies
-
-HSt0 = St0H
-
+![Screenshot from 2021-07-05 10-54-51](https://user-images.githubusercontent.com/54907384/124421610-734ddd80-dd7f-11eb-8bb7-057f73533e27.png)
 
 Ex:
 y(t) = t.x(t)
 
-Time variant system: A System is said to time variant if it is not a  time invariant system. i.e., the time delay or time advance of the input may not be identical to the time shift of the output. For the time variant system
-HSt0 ≠ St0H
+<b>Time variant system:</b> A System is said to time variant if it is not a  time invariant system. i.e., the time delay or time advance of the input may not be identical to the time shift of the output. For the time variant system <br />
+![Screenshot from 2021-07-05 10-56-11](https://user-images.githubusercontent.com/54907384/124421725-b14b0180-dd7f-11eb-805a-7778f2c6a81a.png)
 
 Ex:
-y[n] = rnx[n]
+![Screenshot from 2021-07-05 10-56-17](https://user-images.githubusercontent.com/54907384/124421705-a6906c80-dd7f-11eb-950f-34da4430611c.png)
 
 LTI Systems
 =================
