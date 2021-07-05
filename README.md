@@ -171,31 +171,44 @@ LTI Systems
 
 Introduction
 -----------
-Introduction:
 LTI system is composed of 2 types of systems, linear system and time-invariant system, and possess the properties of both systems.
 d/dt(c1x1(t)+c2x2(t)) = c1x’1(t) + c2x’2(t)
 
 Impulse response of LTI
 -----------
-impulse response of a system is its output when presented with a brief input signal, called an impulse. More generally, an impulse response is the reaction of a system in response to some external change.
-A linear time-invariant (LTI) system can be represented by its impulse response
-If X(t) is the input signal to the system, the output, Y(t), can be written as
-Y(t)=-∞∞ h(𝛼)X(t-𝛼) d𝛼 =-∞∞ X(𝛼)h(t-𝛼) d𝛼
-    The above integral is called the convolution of h and X, and we write 
-Y(t)= h(t)*X(t) = X(t)*h(t)
-For discrete-time systems, the output can be written as 
-Y[n]= h[n]*X[n] = X[n]*h[n]
--∞∞= h(t)*X(t) = X(t)*h(t) =k = -∞∞h[k]X[n-k]
- =k = -∞∞X[k]h[n-k]
+<p><b>&emsp;&emsp;impulse response</b> of a system is its output when presented with a brief input signal, called an impulse. More generally, an impulse response is the reaction of a system in response to some external change. <br />
+  
+  &emsp;A <b>linear time-invariant (LTI)</b> system can be represented by its <b>impulse response</b> 
+&emsp;If X(t) is the input signal to the system, the output, Y(t), can be written as <br />
+&emsp;&emsp;&emsp; ![Screenshot from 2021-07-05 11-37-14](https://user-images.githubusercontent.com/54907384/124424948-7c41ad80-dd85-11eb-8a04-bf3cac57358d.png) <br />
+&emsp;The above integral is called the convolution of h and X, and we write <br />
+&emsp;&emsp;&emsp;&emsp;![Screenshot from 2021-07-05 11-37-27](https://user-images.githubusercontent.com/54907384/124425071-a6936b00-dd85-11eb-8a50-d641e96b4fca.png) <br />
+  
+  &emsp; For <b>discrete-time systems</b>, the output can be written as <br />
+  &emsp;&emsp;&emsp;&emsp;![Screenshot from 2021-07-05 11-40-36](https://user-images.githubusercontent.com/54907384/124425213-e22e3500-dd85-11eb-93ca-06a88ba58e90.png) </p>
+
 
 Frequency response of LTI
 -----------
+<p>As per video, <b>Frequency response</b> tells how the system responds to <b>sinusoids of different frequencies</b>. <br />
+&emsp;&emsp;&emsp;&emsp; ![Screenshot from 2021-07-05 11-42-52](https://user-images.githubusercontent.com/54907384/124425445-30433880-dd86-11eb-9c73-54abdc5d37d3.png)</p>
 
 Relationship between Frequency and Impulse Response
 -----------
+Relationship between Frequency response and impulse response of the system will be <b>determined by Fourier series and Fourier Transforms</b>.
 
 Difference equation Representation of LTI System
 -----------
+<p>Mainly, we will see <b>linear constant-coefficient difference / differential equations.</b><br />
+  
+ &emsp; <b>Linear constant-coefficient differential equation: </b> <br />
+ &emsp; &emsp;&emsp;&emsp;&emsp; ![Screenshot from 2021-07-05 11-46-53](https://user-images.githubusercontent.com/54907384/124425842-c4ad9b00-dd86-11eb-9a9d-9b9f607c8ac7.png) <br />
+  
+  &emsp; <b>Linear constant-coefficient difference equation:</b> <br />
+&emsp; &emsp;&emsp;&emsp;&emsp;
+![Screenshot from 2021-07-05 11-48-48](https://user-images.githubusercontent.com/54907384/124426008-03dbec00-dd87-11eb-8a80-896636809fd6.png) <br />
+&emsp;  The order of the differential or difference equation is (N,M), (Often, N >= M)
+
 
 
 Causality
