@@ -99,11 +99,11 @@ Then we can find that
   
 Linearity
 -----------
-Linear system: A system is said to be linear (in both continuous-time and discrete-time) if it satisfies the two properties of superposition and homogeneity.
+  <b>Linear system:</b> <p>A system is said to be linear (in both continuous-time and discrete-time) if it satisfies the two properties of superposition and homogeneity.</p>
 
-Superposition: Consider a system that is initially at rest. Let the system be subjected to the input x(t) = 	x1(t), producing an output y(t) = y1(t). Next the same system is subjected to the different input x(t) = x2(t), producing an output y(t) = y2(t). Then for the system to follow superposition property, the corresponding input x(t) = x1(t) + x2(t) should produce corresponding output y(t) = y1(t) + y2(t).
+<b>Superposition:</b> <p>Consider a system that is initially at rest. Let the system be subjected to the input x(t) = 	x1(t), producing an output y(t) = y1(t). Next the same system is subjected to the different input x(t) = x2(t), producing an output y(t) = y2(t). Then for the system to follow superposition property, the corresponding input x(t) = x1(t) + x2(t) should produce corresponding output y(t) = y1(t) + y2(t).</p>
 
-Homogeneity: Consider a system that is initially at rest, and an input x(t) results in output y(t). Then for the system to exhibit the homogeneity property, whenever the system x(t) is scaled by a constant a. The ouput y(t) should also be scaled by the exact constant a (i.e., if input is a.x(t), then output must be a.y(t) ).
+<b>Homogeneity:</b> Consider a system that is initially at rest, and an input x(t) results in output y(t). Then for the system to exhibit the homogeneity property, whenever the system x(t) is scaled by a constant a. The ouput y(t) should also be scaled by the exact constant a (i.e., if input is a.x(t), then output must be a.y(t) ).
 
 Ex: y[n] = n.x[n] is a linear system, because it satisfies both  superposition principle and homogeneity property.
 
@@ -112,7 +112,7 @@ If input x[n] is expressed as weighted sum
 
 then the resulting output will be
 
-
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = + -1)
 
 
 
