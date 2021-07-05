@@ -65,14 +65,14 @@ Description:
 <b>Memoryless system:</b> <p>The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
 The input from the past and future has no influence on the output of the system.
 
-Ex: A resistor is memoryless, since the current i(t) flowing through it in response to the applied voltage v(t) is defined by
+Ex: A resistor is memoryless, since the current i(t) flowing through it in response to the applied voltage v(t) is defined by <br />
 ![pic1](https://user-images.githubusercontent.com/54907384/124416411-9030e380-dd74-11eb-8aed-cb313be15533.png) where R is resistance of the resistor.</p>
 
 <b>Memory System:</b> <p>
 In contrast, the system is said to possess memory if its output signal depends on past or future values of input signal.
 These systems are opposite of memory systems.
 
-Ex: An inductor has memory, since the current i(t) flowing through it is related to the applied voltage v(t) by
+Ex: An inductor has memory, since the current i(t) flowing through it is related to the applied voltage v(t) by <br />
 ![pic2](https://user-images.githubusercontent.com/54907384/124416946-bb680280-dd75-11eb-8ff9-a1062a25bb4a.png) where L is inductance of th inductor.</p>
 
 Stability
