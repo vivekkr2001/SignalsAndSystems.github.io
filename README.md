@@ -103,19 +103,17 @@ Linearity
 
 <b>Superposition:</b> <p>Consider a system that is initially at rest. Let the system be subjected to the input x(t) = 	x1(t), producing an output y(t) = y1(t). Next the same system is subjected to the different input x(t) = x2(t), producing an output y(t) = y2(t). Then for the system to follow superposition property, the corresponding input x(t) = x1(t) + x2(t) should produce corresponding output y(t) = y1(t) + y2(t).</p>
 
-<b>Homogeneity:</b> Consider a system that is initially at rest, and an input x(t) results in output y(t). Then for the system to exhibit the homogeneity property, whenever the system x(t) is scaled by a constant a. The ouput y(t) should also be scaled by the exact constant a (i.e., if input is a.x(t), then output must be a.y(t) ).
+<b>Homogeneity:</b> <p>Consider a system that is initially at rest, and an input x(t) results in output y(t). Then for the system to exhibit the homogeneity property, whenever the system x(t) is scaled by a constant a. The ouput y(t) should also be scaled by the exact constant a (i.e., if input is a.x(t), then output must be a.y(t) ).</p>
 
 Ex: y[n] = n.x[n] is a linear system, because it satisfies both  superposition principle and homogeneity property.
 
 If input x[n] is expressed as weighted sum
-
-
+![pic8](https://user-images.githubusercontent.com/54907384/124420704-95def700-dd7d-11eb-81a3-8313e6bc3f7f.png) <br />
 then the resulting output will be
+![pic9](https://user-images.githubusercontent.com/54907384/124420750-a4c5a980-dd7d-11eb-9dd8-6e2accc59f8a.png) <br />
+![pic10](https://user-images.githubusercontent.com/54907384/124420785-b60eb600-dd7d-11eb-8606-8feadc43ec50.png)
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}"/>
 Non-linear System: If the system violates either of the superposition principle or homogeneity property, then it is said to be a Non-linear system.
-
-
 
 Ex:
 y(t) = x(t) + 2t
