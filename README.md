@@ -112,8 +112,7 @@ If input x[n] is expressed as weighted sum
 
 then the resulting output will be
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = + -1">
-
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 Non-linear System: If the system violates either of the superposition principle or homogeneity property, then it is said to be a Non-linear system.
 
