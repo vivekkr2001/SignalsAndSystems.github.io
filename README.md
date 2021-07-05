@@ -112,8 +112,7 @@ If input x[n] is expressed as weighted sum
 
 then the resulting output will be
 
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = + -1)
-
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = + -1">
 
 
 Non-linear System: If the system violates either of the superposition principle or homogeneity property, then it is said to be a Non-linear system.
