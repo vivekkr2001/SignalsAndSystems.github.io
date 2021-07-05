@@ -62,23 +62,24 @@ Video:
 
 Description:
 
-Memoryless system: The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
+<b>Memoryless system:</b> <p>The system is said to be memoryless (in both continuous-time and discrete-time) if its output signal only depends on the present value of the input signal.
 The input from the past and future has no influence on the output of the system.
 
 Ex: A resistor is memoryless, since the current i(t) flowing through it in response to the applied voltage v(t) is defined by
 
-
+![pic1](https://user-images.githubusercontent.com/54907384/124416411-9030e380-dd74-11eb-8aed-cb313be15533.png)
      
-where R is resistance of the resistor.
+where R is resistance of the resistor.</p>
 
-Memory System: In contrast, the system is said to possess memory if its output signal depends on past or future values of input signal.
+<b>Memory System:</b> <p>
+In contrast, the system is said to possess memory if its output signal depends on past or future values of input signal.
 These systems are opposite of memory systems.
 
 Ex: An inductor has memory, since the current i(t) flowing through it is related to the applied voltage v(t) by
 
 
 
-where L is inductance of th inductor.
+where L is inductance of th inductor.</p>
 Stability
 -----------
 Stable System: A system is said to be bounded-input, bounded-output (BIBO) stable (in both continuous-time and discrete-time) if and only if every bounded input results in a bounded output.
