@@ -77,31 +77,25 @@ Ex: An inductor has memory, since the current i(t) flowing through it is related
 
 Stability
 -----------
-Stable System: A system is said to be bounded-input, bounded-output (BIBO) stable (in both continuous-time and discrete-time) if and only if every bounded input results in a bounded output.
+<b>Stable System:</b> <p>A system is said to be bounded-input, bounded-output (BIBO) stable (in both continuous-time and discrete-time) if and only if every bounded input results in a bounded output.
 
+i.e., if the output of the system satisfies the condition <br />
+ ![pic3](https://user-images.githubusercontent.com/54907384/124418668-9ffef680-dd79-11eb-9153-df230707c25b.png)
+whenever the input of the system satisfies the condition <br />
+![pic4](https://user-images.githubusercontent.com/54907384/124418710-bb6a0180-dd79-11eb-88ee-6c59c99be411.png)
+Both Mx and My represent some finite positive numbers.</p>
 
-i.e., if the output of the system satisfies the condition
-
-
-whenever the input of the system satisfies the condition
-
-
-Both Mx and My represent some finite positive numbers.
-
-Unstable system: A system is said to be unstable if it is not a stable system.
-
-Ex: 
+<b>Unstable system:</b> <p>A system is said to be unstable if it is not a stable system.
+Ex:  ![pic5](https://user-images.githubusercontent.com/54907384/124418772-da689380-dd79-11eb-9fbf-7035ad0d3e57.png)
 
 Lets assume the input is bounded and satisfies the condition.
-
-
+![pic6](https://user-images.githubusercontent.com/54907384/124418880-0c79f580-dd7a-11eb-9236-2d9232dd810e.png)
 Then we can find that
+![pic7](https://user-images.githubusercontent.com/54907384/124418897-16035d80-dd7a-11eb-92f8-2e25cc41a655.png)
 
+** When <b>r ≥ 1</b>, rn increases as n increases and the magnitude of y[n] increases, thus violates the bibo stable condition. So, the system is  unstable.
 
-
-When r ≥ 1, rn increases as n increases and the magnitude of y[n] increases, thus violates the bibo stable condition. So, the system is  unstable.
-
-When r < 1, rn decreases as n increases and the magnitude of y[n] reaches zero, thus satisfiying the bibo stable condition. So, the system is  stable.
+** When <b>r < 1</b>, rn decreases as n increases and the magnitude of y[n] reaches zero, thus satisfiying the bibo stable condition. So, the system is  stable.</p>
 Linearity
 -----------
 Linear system: A system is said to be linear (in both continuous-time and discrete-time) if it satisfies the two properties of superposition and homogeneity.
